@@ -305,3 +305,32 @@ Result: PASS
 Final Verification Summary
 
 The additional gameplay tests passed. The program correctly displayed help instructions, rejected an invalid command, and exited when requested. Previous testing also demonstrated movement, scoring, saving, loading, and starting a new game.
+
+## Final Clean Extraction Testing
+
+Date: 11/14/2026
+
+Environment: Windows PowerShell using g++ and C++17.
+
+The project ZIP file was downloaded from GitHub and extracted into a separate folder to make sure both programs could compile and run outside of our original project folder.
+
+### 2048 Game
+
+- Compiled successfully with no errors or warnings.
+- Game started with two randomly placed tiles.
+- Movement worked correctly.
+- Saving and loading restored the previous game state.
+- Exit command worked correctly.
+
+Result: PASS
+
+### Luhn Validation
+
+- Compiled successfully with no errors or warnings.
+- Valid input (4532015112830366) passed the checksum.
+- Invalid checksum input (4532015112830367) failed the checksum.
+- Quit command worked correctly.
+
+Result: PASS
+
+Both programs compiled and ran successfully from the extracted project folder.
