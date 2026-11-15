@@ -286,3 +286,25 @@ g++ -std=c++17 -Wall -Wextra -pedantic luhn/main.cpp luhn/luhn.cpp -o luhn_app.e
 
 Part A (2048 game) test results will be added
 after integration and verification by the group.
+Additional 2048 Gameplay Verification
+Test 1: Help Command
+
+Input: h
+Expected: Display the available commands and game instructions.
+Actual: The program displayed the 2048 help menu, including movement, saving, loading, starting a new game, and exiting.
+Result: PASS
+Test 2: Invalid Command
+
+Input: x
+Expected: Reject the invalid command without terminating the game.
+Actual: The program displayed “Invalid command. Please try again.” and continued running.
+Result: PASS
+Test 3: Exit Command
+
+Input: e
+Expected: Exit the game and return control to the terminal.
+Actual: The program exited and returned to the PowerShell prompt.
+Result: PASS
+Final Verification Summary
+
+The additional gameplay tests passed. The program correctly displayed help instructions, rejected an invalid command, and exited when requested. Previous testing also demonstrated movement, scoring, saving, loading, and starting a new game.
