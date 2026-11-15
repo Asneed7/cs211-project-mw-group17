@@ -284,9 +284,6 @@ g++ -std=c++17 -Wall -Wextra -pedantic luhn/main.cpp luhn/luhn.cpp -o luhn_app.e
 
 ## Remaining Project Testing
 
-Part A (2048 game) test results will be added
-after integration and verification by the group.
-Additional 2048 Gameplay Verification
 Test 1: Help Command
 
 Input: h
